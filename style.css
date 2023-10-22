@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+/* //covert everything to normal */
+
+
+body
+{
+    background-color: #222;
+    color: white;
+    font-family: system-ui;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color:  rgb(153, 28, 179);
+}
+
+.crud
+{
+    width: 80%;
+    margin :auto; /*makes the div in the center of */
+}
+
+.head
+{
+    text-align:center;
+    text-transform: uppercase;
+    margin : 10px 0
+}
+.head p{
+    font-size: 25px;
+}
+
+input
+{
+    width: 100%;
+    height: 30px;
+    outline: none; 
+     /* /from outside the input/ */
+    border: none;   
+    /* /from inside the input/ */
+    background-color: #111 ;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+
+
+input:focus
+{
+    background-color: black;
+    transform: scale(1.1);
+}
+
+
+.price input
+{
+    width:20%;
+}
+
+
+#total::before {
+    content: 'Total : ';
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#total
+{
+    background-color: rgb(203, 18, 18);
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+
+
+button
+{
+    width: 100%;
+    height:30px;
+    border: none;
+    cursor: pointer; 
+    /* /make the mouse a pointer/ */
+    background-color : rgb(101, 10, 120);
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s; 
+    /* /speed of spacing when you click/ */
+}
+
+
+button:hover
+{
+    background-color: rgb(193, 94, 215);
+    letter-spacing: 1px;
+}
+
+
+.btnsearch
+{
+    display: flex; 
+    /* /ba7ot el 2 buttons gamb b3d/ */
+    justify-content: space-between; 
+    /* /msafa men el nos/ */
+}
+
+.btnsearch button
+{
+    width: 45%;
+    
+}
+#deleteAll {
+
+    margin: 20px 0;
+}
+
+
+table
+{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+table th
+{
+    text-transform: uppercase;
+}
+
+
+th,td
+{
+    padding: 5px;
+
+}
